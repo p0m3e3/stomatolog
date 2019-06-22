@@ -156,6 +156,12 @@ nav ul ul ul {
 .textt{
     font-size: 20px;
 }
+.bw{
+  filter:grayscale(1);
+}
+.bw:hover{
+  filter:grayscale(0);
+}
 @media(max-width:1200px){
     body{
       width:100%;
