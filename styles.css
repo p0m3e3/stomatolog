@@ -21,6 +21,7 @@
     background-color:white;
     color:#674582;
     font-size: 30px;
+    border-bottom-left-radius:5px;
 }  
 
 .logo {
@@ -168,7 +169,11 @@ nav ul ul ul {
   .menuu{
     justify-content:center;
     background-color:white;
+    border-bottom-right-radius:5px;
     /*text-align:center;*/
+  }
+  .noradius{
+    border-radius:0;
   }
 .hgrid{
     grid-template-columns:100%;
