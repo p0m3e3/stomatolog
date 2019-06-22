@@ -283,6 +283,7 @@ nav ul ul ul {
   height:40vw;
 }
 .mainpagelink{
+  transition:0.5s;
   text-decoration:none; display:block; padding:5px; color: #2282FF;
 }
 .mainpagelink:hover{
