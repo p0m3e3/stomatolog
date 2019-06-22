@@ -282,3 +282,10 @@ nav ul ul ul {
   width:40vw;
   height:40vw;
 }
+.mainpagelink{
+  text-decoration:none; display:block; padding:5px; color: #2282FF;
+}
+.mainpagelink:hover{
+  color:white;
+  background-color:#2282FF;
+}
