@@ -21,6 +21,7 @@
     background-color:white;
     color:#674582;
     font-size: 30px;
+    border-bottom-left-radius:5px;
 }  
 
 .logo {
@@ -155,6 +156,20 @@ nav ul ul ul {
 .textt{
     font-size: 20px;
 }
+.bw{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.bw:hover{
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
 @media(max-width:1200px){
     body{
       width:100%;
@@ -168,7 +183,11 @@ nav ul ul ul {
   .menuu{
     justify-content:center;
     background-color:white;
+    border-bottom-right-radius:5px;
     /*text-align:center;*/
+  }
+  .noradius{
+    border-radius:0;
   }
 .hgrid{
     grid-template-columns:100%;
@@ -220,7 +239,7 @@ nav ul ul ul {
   border-width: 2px;
   border-style: solid;
 }
-.doc:hover{
+.doc:hover:not(bw){
   transform:scale(1.5);
 }
 .specialist{
