@@ -1,0 +1,260 @@
+*{
+ margin:0;
+ padding:0;
+}
+ body{
+    background-color: #5A5F73;
+    margin-left:0%;
+    margin-right:0%;
+    width:1200px;
+    margin:auto;
+}
+.hgrid{
+    display:grid;
+    grid-template-columns:auto auto;   
+      }
+.hgrid a{
+    text-decoration:none;
+    }
+.logot { 
+    text-align: left;
+    background-color:white;
+    color:#674582;
+    font-size: 30px;
+}  
+
+.logo {
+    padding-top:5px;
+    padding:5px;
+    width:50px;
+    height:50px;
+  }
+
+
+a {
+	color: #674582;
+}
+
+nav { 
+  
+  z-index:9999;
+	margin: 0;
+	background-color: white;
+}
+nav ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+}
+nav ul li {
+	margin: 0px;
+	display:inline-block;
+	float: left;
+  z-index:9999;
+	background-color: white;
+  
+	}
+
+/* Styling the links */
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#0000FF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+  transition:1s;
+}
+
+mainlink{
+  background-color:#0000FF;
+  color:white;
+}
+nav ul li ul li:hover { background: #000000; }
+
+nav a:hover { 
+	background-color: #364D9D; 
+  color:white;
+}
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 100%; 
+	
+}
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	min-width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+
+nav ul ul ul {
+	position: absolute;
+	top:0;
+	left:100%; 
+}
+@media  (min-width: 951px){
+ .hlink:hover{
+    background-color:#364D9D;
+    color:white;
+  }
+}
+.mainlink{
+    background-color:#BBBBBB;
+}
+.picpar{
+    /*position:absolute;*/
+    display:inline-block;  
+    position:relative;
+    width:100%;
+    padding:0px;
+    filter:blur(0px);
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.picpar span {
+    display:inline-block;
+    position:absolute;
+    top:50%;  
+    left:35%;
+    text-align:center;
+     
+    /* Оформление текста */
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+     
+    /* Фон */
+    background-color:rgba(1,5,125,.75);
+    padding:10px 30px;
+}
+.mainpar{
+    margin-top:5px;
+    background-color: white;
+    color:#2282FF;
+    padding:10px;
+    border-radius:5px;
+    border-color:grey;
+    border-width:2px;
+    border-style:solid;
+    font-size: 20px;
+}
+.textt{
+    font-size: 20px;
+}
+@media(max-width:1200px){
+    body{
+      width:100%;
+  }
+}
+@media(max-width:950px){
+    .body{width:100%;}
+        .logot { 
+    text-align: center;
+    } 
+  .menuu{
+    justify-content:center;
+    background-color:white;
+    /*text-align:center;*/
+  }
+.hgrid{
+    grid-template-columns:100%;
+  }
+  .name{
+    text-align:center;
+  }
+  .header1{
+    padding:0;
+    width:calc(100% - 5px);
+    padding-right:5px;
+  }
+}
+  @media(max-width:620px){
+    .header2{
+      grid-template-columns:100%;
+    }
+    .hlink{
+      padding:5px;
+      border-radius:0;
+    }
+    nav ul li li{
+      display:none;
+    }
+    li > a:after { content:  ''; }
+    .logot { 
+    font-size: 20px;
+    }  
+    .logo {
+    width:20px;
+    height:20px;
+    }
+  }
+
+.docwrap{
+  justify-content:space-around;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+.doc{
+  margin:10px;
+  display:flex;
+  width:200px;
+  transition:0.5s;
+  height:300px; 
+  border-radius: 5px;
+  border-color: grey;
+  border-width: 2px;
+  border-style: solid;
+}
+.doc:hover{
+  transform:scale(1.5);
+}
+.specialist{
+  background-color:#999999;
+  color:white;
+  border-radius:5px;
+  padding:5px;
+  display:flex;
+  flex-direction:row;
+  margin-bottom:5px;
+}
+.rev{
+  flex-direction:row-reverse;
+  background-color:#9999DD;
+}
+.rev .description{
+  text-align:right;
+}
+.description{
+  padding:10px;
+  flex-grow:1;
+  font-size:20px;
+}
+.description b{
+  color:#1272EF;
+  font-size:25px;
+}
+.photo{
+  display:flex;
+  width:40vw;
+  margin-right:5px;
+}
+.photoimg{
+  border-radius:5px;
+  width:40vw;
+  height:40vw;
+}

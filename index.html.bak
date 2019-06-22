@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>test</title>
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/476097934832697364/541033126588055553/dental.jpg"
+      type="image/x-icon">
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="hgrid">
+      <div class="logot"><a href="index.html"><img src="https://cdn.discordapp.com/attachments/476097934832697364/541033126588055553/dental.jpg"
+            class="logo" align="absmiddle"></a> &nbsp; ООО "С<a href="index.html"></a>томатолог"
+        </div>
+      <div class="menuu">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="mainlink">Главная</a></li>
+            <li><a href="info.html">Информация</a>
+              <!-- First Tier Drop Down -->
+              <ul>
+                <li><a href="info.html#docs">Документы</a></li>
+                <li><a href="info.html#kontrorg">Контролирующие органы</a></li>
+              </ul>
+            </li>
+            <li><a href="price.html">Услуги и Цены</a></li>
+            <li><a href="specialists.html">Специалисты</a>
+              <ul>
+                <li><a href="specialists.html#glavvrach">Главврач</a></li>
+                <li><a href="specialists.html#stomatolog">Стоматолог</a></li>
+                <li><a href="specialists.html#terapevt">Терапевт</a></li>
+                <li><a href="specialists.html#zubnoy">Зубной врач</a></li>
+                <li><a href="specialists.html#medsestra">Медсестра</a></li>
+              </ul>
+            </li>
+            <li><a href="about.html">О нас</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="picpar"> <img src="https://cdn.discordapp.com/attachments/476097934832697364/541033889192214548/st2.jpg"
+        class="picpar"> <span>Добро пожаловать!</span> </div>
+    <div class="mainpar" id=""> Клиника ООО "Стамотолог" в городе Обоянь в
+      шаговой доступности от автовокзала. У нас оказывают услуги по
+      терапевтической стамотологии. Кабинеты оборудованы современным
+      стамотологическим медецинским и прочим оборудованием. Повышенное внимание
+      уделяется соблюдению санитарно эпидемиологического режима и стерильности
+      инструментов. </div>
+    <div class="mainpar foot">Copyright Medvosa &amp; P0m3e3 2019</div>
+  </body>
+</html>
