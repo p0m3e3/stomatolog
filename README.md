@@ -1,1 +1,1 @@
-# stomatolog.github.io
+# stomatolog
