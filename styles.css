@@ -239,7 +239,7 @@ nav ul ul ul {
   border-width: 2px;
   border-style: solid;
 }
-.doc:hover:not(bw){
+.doc:hover:not(.bw){
   transform:scale(1.5);
 }
 .specialist{
