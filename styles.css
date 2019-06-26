@@ -301,5 +301,5 @@ li > a:after {
 }
 .doc-grid{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 30% auto;
 }
