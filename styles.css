@@ -109,10 +109,10 @@ nav ul ul ul {
 }
 
 @media (min-width: 951px) {
-.hlink:hover {
-    background-color: #364D9D;
-    color: white;
-}
+    .hlink:hover {
+        background-color: #364D9D;
+        color: white;
+    }
 }
 .mainlink {
     background-color: #BBBBBB;
@@ -174,62 +174,62 @@ nav ul ul ul {
 }
 
 @media(max-width:1200px) {
-body {
-    width: 100%;
-}
+    body {
+        width: 100%;
+    }
 }
 
 @media(max-width:950px) {
-.body {
-    width: 100%;
-}
-.logot {
-    text-align: center;
-}
-.menuu {
-    justify-content: center;
-    background-color: white;
-    border-bottom-right-radius: 5px;/*text-align:center;*/
-}
-.noradius {
-    border-radius: 0;
-}
-.hgrid {
-    grid-template-columns: 100%;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-.name {
-    text-align: center;
-}
-.header1 {
-    padding: 0;
-    width: calc(100% - 5px);
-    padding-right: 5px;
-}
+    .body {
+        width: 100%;
+    }
+    .logot {
+        text-align: center;
+    }
+    .menuu {
+        justify-content: center;
+        background-color: white;
+        border-bottom-right-radius: 5px;/*text-align:center;*/
+    }
+    .noradius {
+        border-radius: 0;
+    }
+    .hgrid {
+        grid-template-columns: 100%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .name {
+        text-align: center;
+    }
+    .header1 {
+        padding: 0;
+        width: calc(100% - 5px);
+        padding-right: 5px;
+    }
 }
 
 @media(max-width:620px) {
-.header2 {
-    grid-template-columns: 100%;
-}
-.hlink {
-    padding: 5px;
-    border-radius: 0;
-}
-nav ul li li {
-    display: none;
-}
-li > a:after {
-    content: '';
-}
-.logot {
-    font-size: 20px;
-}
-.logo {
-    width: 20px;
-    height: 20px;
-}
+    .header2 {
+        grid-template-columns: 100%;
+    }
+    .hlink {
+        padding: 5px;
+        border-radius: 0;
+    }
+    nav ul li li {
+        display: none;
+    }
+    li > a:after {
+        content: '';
+    }
+    .logot {
+        font-size: 20px;
+    }
+    .logo {
+        width: 20px;
+        height: 20px;
+    }
 }
 .docwrap {
     justify-content: space-around;
