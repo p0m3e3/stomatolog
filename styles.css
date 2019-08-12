@@ -152,8 +152,8 @@ nav ul ul ul {
     border-style: solid;
     font-size: 20px;
 }
-.shapka{
-	color: #474747;
+.shapka {
+    color: #474747;
 }
 .textt {
     font-size: 20px;
@@ -302,7 +302,7 @@ li > a:after {
     color: white;
     background-color: #2282FF;
 }
-.doc-grid{
+.doc-grid {
     display: grid;
     grid-template-columns: 20% auto;
 }
