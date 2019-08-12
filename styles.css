@@ -173,6 +173,11 @@ nav ul ul ul {
     filter: grayscale(0%);
 }
 
+.doc-grid {
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+
 @media(max-width:1200px) {
     body {
         width: 100%;
@@ -206,6 +211,10 @@ nav ul ul ul {
         padding: 0;
         width: calc(100% - 5px);
         padding-right: 5px;
+    }
+    .doc-grid{
+        grid-template-columns: auto;
+        
     }
 }
 
@@ -302,7 +311,4 @@ nav ul ul ul {
     color: white;
     background-color: #2282FF;
 }
-.doc-grid {
-    display: grid;
-    grid-template-columns: 20% auto;
-}
+
