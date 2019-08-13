@@ -248,6 +248,9 @@ nav ul ul ul {
         width: 20px;
         height: 20px;
     }
+    .main-page-grid{
+        display:block;
+    }
 }
 .docwrap {
     justify-content: space-around;
@@ -276,7 +279,10 @@ nav ul ul ul {
 }
 .specialist {
     background-color: #999999;
-    color: white;
+    color: white;.main-page-grid{
+    display:grid;
+    grid-template-columns: 60% 40%
+}
     border-radius: 5px;
     padding: 5px;
     display: flex;
