@@ -9,6 +9,10 @@ body {
     width: 1200px;
     margin: auto;
 }
+.main-page-grid{
+    display:grid;
+    grid-template-columns: 60% 40%
+}
 .hgrid {
     display: grid;
     grid-template-columns: auto auto;
