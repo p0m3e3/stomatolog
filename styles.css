@@ -213,6 +213,9 @@ nav ul ul ul {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
     }
+    .doc-photo-div{
+        display:none;
+    }
     .name {
         text-align: center;
     }
