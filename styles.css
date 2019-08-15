@@ -238,6 +238,9 @@ nav ul ul ul {
         padding: 5px;
         border-radius: 0;
     }
+    .doc-photo-div{
+        display:none;
+    }
     nav ul li li {
         display: none;
     }
