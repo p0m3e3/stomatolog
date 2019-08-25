@@ -333,3 +333,7 @@ nav ul ul ul {
     background-color: #2282FF;
 }
 
+.foot{
+    display:flex;
+    flex-direction: row;
+}
