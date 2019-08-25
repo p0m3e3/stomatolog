@@ -184,7 +184,7 @@ nav ul ul ul {
 
 .doc-grid {
     display: grid;
-    grid-template-columns: 20% auto;
+    grid-template-columns: auto;
 }
 
 @media(max-width:1200px) {
